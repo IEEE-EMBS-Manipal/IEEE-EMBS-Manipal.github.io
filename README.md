@@ -1,2 +1,2 @@
-# IEEE-EMBS-Manipal.github.io
-For GitHub Pages
+# IEEE EMBS Manipal
+> Biomedical student body at MIT Manipal
