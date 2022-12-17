@@ -2,10 +2,10 @@
 
 {% block title %}Team | IEEE EMBS Manipal{% endblock %}
 
-{% macro renderPerson(name, designation, about, image) %}
+{% macro renderPerson(name, designation, image, about) %}
 <div class="col">
     <div class="card">
-        <img src="{{ image }}" class="card-img-top" alt="...">
+        <img src="{{ image }}" class="card-img-top" alt="{{ name }}">
         <div class="card-body">
             <h5 class="card-title">{{ name }}</h5>
             <h6 class="card-subtitle mb-2 text-muted">{{ designation }}</h6>
@@ -23,17 +23,9 @@
     <div class="row">
         <h2>Executives</h2>
 
-        {{ renderPerson(
-        name = "Tushar Nayak",
-        designation = "Chairperson",
-        about = "..."
-        ) }}
-
-        {{ renderPerson(
-        name = "Justin Vizi Kuruvilla",
-        designation = "Vice Chairperson",
-        about = "..."
-        ) }}
+        {% for person in data.Executives %}
+        {{ renderPerson(person.name, person.designation, person.image, person.about) }}
+        {% endfor %}
     </div>
 
     <div class="row">
