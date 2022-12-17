@@ -16,7 +16,7 @@
     transform: translateY(0);
 }
 
-@media (prefers-reduced-motion: reduce),
+@media (prefers-reduced-motion),
 (scripting: none) {
     .reveal-on-scroll {
         opacity: 1;

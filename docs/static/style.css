@@ -1,6 +1,29 @@
 /* ----------------------------------------- */
 /* Default */
 
+.reveal-on-scroll {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateY(+15%);
+
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+.revealed {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion),
+(scripting: none) {
+    .reveal-on-scroll {
+        opacity: 1;
+        transition: none;
+    }
+}
+
 /* ----------------------------------------- */
 /* Header */
 
