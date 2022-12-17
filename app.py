@@ -35,7 +35,6 @@ def pages(page):
         data = json.load(open(dataPath))
     except:
         data = {}
-    print(data)
 
     return render_template(page.lower() + ".html", data=data)
 

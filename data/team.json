@@ -2,13 +2,81 @@
     "Executives": [
         {
             "name": "Tushar Nayak",
-            "designation": "Chair",
+            "designation": "Chairperson and Co-Head of Research & Projects",
             "image": "",
             "about": "..."
         },
         {
             "name": "Justin Kuruvilla",
-            "designation": "Vice Chair",
+            "designation": "Vice Chairperson",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Poornima Shetty",
+            "designation": "Secretary General",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Ashrith Yedlapalli",
+            "designation": "Treasurer and Operations Head",
+            "image": "",
+            "about": "..."
+        }
+    ],
+    "Board": [
+        {
+            "name": "Nitila Gokulkrishnan",
+            "designation": "Co-Head of Research & Projects",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Manan Tewari",
+            "designation": "Co-Head of Research & Projects",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Shavarni Shrivastava",
+            "designation": "Head of IT",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Prateek Anand",
+            "designation": "Webmaster",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Pujita Bhimavarapu",
+            "designation": "Head of Marketing and Public Relations",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Vishwas S",
+            "designation": "Head of Events and Workshop",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Tavin DSouza",
+            "designation": "Head of Graphics and Design",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Krithya Vellian",
+            "designation": "Sub-Head of Graphics",
+            "image": "",
+            "about": "..."
+        },
+        {
+            "name": "Nethra Priyadarshini A Shenoy",
+            "designation": "Editor in Chief",
             "image": "",
             "about": "..."
         }

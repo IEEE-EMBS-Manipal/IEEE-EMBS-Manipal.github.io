@@ -3,7 +3,7 @@
 {% block title %}Team | IEEE EMBS Manipal{% endblock %}
 
 {% macro renderPerson(name, designation, image, about) %}
-<div class="col">
+<div class="col-6">
     <div class="card">
         <img src="{{ image }}" class="card-img-top" alt="{{ name }}">
         <div class="card-body">
@@ -30,6 +30,10 @@
 
     <div class="row">
         <h2>Board</h2>
+
+        {% for person in data.Board %}
+        {{ renderPerson(person.name, person.designation, person.image, person.about) }}
+        {% endfor %}
     </div>
 
     <div class="row">
