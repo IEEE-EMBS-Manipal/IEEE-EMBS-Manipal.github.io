@@ -1,11 +1,6 @@
-.Logo {
+.IEEE-Logo {
     margin: 0%;
     width: 200px;
-}
-
-.mainBody {
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 .header-brand {
@@ -17,6 +12,12 @@
 .header-brand:hover {
     color: rgb(54, 103, 175);
     scale: 1.04;
+
+    -webkit-transition: scale 0.2s;
+    -moz-transition: scale 0.2s;
+    -o-transition: scale 0.2s;
+    -ms-transition: scale 0.2s;
+    transition: scale 0.2s;
 }
 
 .header-text {
