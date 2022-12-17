@@ -27,9 +27,9 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/<path:page>")
+@app.route("/<path:page>/")
 def pages(page):
-    return render_template(page)
+    return render_template(page.lower() + ".html")
 
 
 if __name__ == '__main__':
