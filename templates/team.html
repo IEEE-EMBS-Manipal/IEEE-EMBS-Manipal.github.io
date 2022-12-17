@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Team | IEEE EMBS Manipal{% endblock %}
+
+{% macro renderPerson(name, designation, about, image) %}
+<div class="col">
+    <div class="card">
+        <img src="{{ image }}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{ name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ designation }}</h6>
+            <p class="card-text">{{ about }}</p>
+        </div>
+    </div>
+</div>
+{% endmacro %}
+
+{% block content %}
+<div class="container">
+
+    <h1>Team</h1>
+
+    <div class="row">
+        <h2>Executives</h2>
+
+        {{ renderPerson(
+        name = "Tushar Nayak",
+        designation = "Chairperson",
+        about = "..."
+        ) }}
+
+        {{ renderPerson(
+        name = "Justin Vizi Kuruvilla",
+        designation = "Vice Chairperson",
+        about = "..."
+        ) }}
+    </div>
+
+    <div class="row">
+        <h2>Board</h2>
+    </div>
+
+    <div class="row">
+        <h2>Committee</h2>
+    </div>
+
+</div>
+{% endblock %}
