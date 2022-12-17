@@ -38,6 +38,12 @@
 
     <div class="row">
         <h2>Committee</h2>
+
+        <div id="committee-parent">
+            {% for person in data.Committee %}
+            <p class="committee-member">{{ person }}</p>
+            {% endfor %}
+        </div>
     </div>
 
 </div>

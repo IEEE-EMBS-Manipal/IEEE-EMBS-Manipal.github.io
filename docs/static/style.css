@@ -35,6 +35,24 @@
 }
 
 /* ----------------------------------------- */
+/* Team page */
+
+#committee-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.committee-member {
+    margin: 5px;
+    padding: 5px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+/* ----------------------------------------- */
 /* Miscellaneous */
 
 /* ----------------------------------------- */
