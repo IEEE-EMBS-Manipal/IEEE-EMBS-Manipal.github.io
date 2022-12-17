@@ -2,6 +2,7 @@
 Freeze Flask app into GitHub Pages
 https://github.com/AshrithSagar/frozen-flask-gh-pages
 """
+import json
 from os import path
 from pathlib import Path
 
@@ -29,7 +30,14 @@ def index():
 
 @app.route("/<path:page>/")
 def pages(page):
-    return render_template(page.lower() + ".html")
+    try:
+        dataPath = path.join('data', page+'.json')
+        data = json.load(open(dataPath))
+    except:
+        data = {}
+    print(data)
+
+    return render_template(page.lower() + ".html", data=data)
 
 
 if __name__ == '__main__':
