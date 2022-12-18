@@ -8,55 +8,15 @@
     <h1 class="display-4 reveal-on-scroll">Contact us</h1>
 
     <ul class="list-unstyled">
-
+        {% for social in data.keys() %}
         <li class="reveal-on-scroll">
-            <a href="https://www.instagram.com/embs.ieeemanipal">
-                <i class="bi-instagram reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
+            <a href="{{ data[social].link }}">
+                <i class="{{ data[social].icon }} reveal-on-scroll"
+                    style="font-size: 3rem; color: {{ data[social].color }};">
+                </i>
             </a>
         </li>
-
-        <li class="reveal-on-scroll">
-            <a href="https://in.linkedin.com/company/embs-ieeemanipal">
-                <i class="bi-linkedin reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
-            </a>
-        </li>
-
-        <li class="reveal-on-scroll">
-            <a href="https://www.bing.com/maps?where=Manipal+576104+Karnataka+IN&trk=org-locations_url">
-                <i class="bi-map reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
-            </a>
-        </li>
-
-        <li class="reveal-on-scroll">
-            <a href="https://www.facebook.com/embs.ieeemanipal">
-                <i class="bi-facebook reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
-            </a>
-        </li>
-
-        <li class="reveal-on-scroll">
-            <a href="https://linktr.ee/embsmanipal">
-                <i class="bi-link-45deg reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
-            </a>
-        </li>
-
-        <li class="reveal-on-scroll">
-            <a href="https://www.youtube.com/@ieee.embs.manipal">
-                <i class="bi-youtube reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
-            </a>
-        </li>
-
-        <li class="reveal-on-scroll">
-            <a href="https://github.com/IEEE-EMBS-Manipal">
-                <i class="bi-github reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
-            </a>
-        </li>
-
-        <li class="reveal-on-scroll">
-            <a href="mailto:embs.ieeemanipal@gmail.com">
-                <i class="bi-envelope reveal-on-scroll" style="font-size: 3rem; color: black;"></i>
-            </a>
-        </li>
-
+        {% endfor %}
     </ul>
 
 </div>
