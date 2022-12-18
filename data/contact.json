@@ -1,23 +1,22 @@
 {
     "Instagram": {
         "link": "https://www.instagram.com/embs.ieeemanipal",
-        "icon": "bi-instagram",
-        "color": "black"
+        "icon": "bi-instagram"
     },
     "LinkedIn": {
         "link": "https://in.linkedin.com/company/embs-ieeemanipal",
         "icon": "bi-linkedin",
-        "color": "black"
+        "color": "royalblue"
     },
     "Location": {
         "link": "https://www.bing.com/maps?where=Manipal+576104+Karnataka+IN&trk=org-locations_url",
         "icon": "bi-map",
-        "color": "black"
+        "color": "green"
     },
     "FaceBook": {
         "link": "https://www.facebook.com/embs.ieeemanipal",
         "icon": "bi-facebook",
-        "color": "black"
+        "color": "royalblue"
     },
     "LinkTree": {
         "link": "https://linktr.ee/embsmanipal",
@@ -27,7 +26,7 @@
     "YouTube": {
         "link": "https://www.youtube.com/@ieee.embs.manipal",
         "icon": "bi-youtube",
-        "color": "black"
+        "color": "red"
     },
     "GitHub": {
         "link": "https://github.com/IEEE-EMBS-Manipal",
@@ -37,6 +36,6 @@
     "Mail": {
         "link": "mailto:embs.ieeemanipal@gmail.com",
         "icon": "bi-envelope",
-        "color": "black"
+        "color": "gray"
     }
 }
