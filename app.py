@@ -19,7 +19,8 @@ app.config['FREEZER_DESTINATION'] = 'docs'
 
 app.config['FREEZER_RELATIVE_URLS'] = False  # Default
 app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
-app.config['FREEZER_DESTINATION_IGNORE'] = ['.nojekyll']  # For GitHub Pages
+app.config['FREEZER_DESTINATION_IGNORE'] = [
+    '.nojekyll', 'static/assets/']  # For GitHub Pages
 freezer = Freezer(app)
 
 
