@@ -3,25 +3,25 @@
         {
             "name": "Tushar Nayak",
             "designation": "Chairperson and Co-Head of Research & Projects",
-            "image": "",
+            "image": "../static/assets/team/Tushar.jpeg",
             "about": "..."
         },
         {
             "name": "Justin Kuruvilla",
             "designation": "Vice Chairperson",
-            "image": "",
+            "image": "../static/assets/team/Justin.jpeg",
             "about": "..."
         },
         {
             "name": "Poornima Shetty",
             "designation": "Secretary General",
-            "image": "",
+            "image": "../static/assets/team/Poornima.jpeg",
             "about": "..."
         },
         {
             "name": "Ashrith Yedlapalli",
             "designation": "Treasurer and Operations Head",
-            "image": "",
+            "image": "../static/assets/team/Ashrith.jpeg",
             "about": "..."
         }
     ],
@@ -29,55 +29,55 @@
         {
             "name": "Nitila Gokulkrishnan",
             "designation": "Co-Head of Research & Projects",
-            "image": "",
+            "image": "../static/assets/team/Nitila.jpeg",
             "about": "..."
         },
         {
             "name": "Manan Tewari",
             "designation": "Co-Head of Research & Projects",
-            "image": "",
+            "image": "../static/assets/team/Manan.jpeg",
             "about": "..."
         },
         {
             "name": "Shavarni Shrivastava",
             "designation": "Head of IT",
-            "image": "",
+            "image": "../static/assets/team/Shavarni.jpeg",
             "about": "..."
         },
         {
             "name": "Prateek Anand",
             "designation": "Webmaster",
-            "image": "",
+            "image": "../static/assets/team/Prateek.jpeg",
             "about": "..."
         },
         {
             "name": "Pujita Bhimavarapu",
             "designation": "Head of Marketing and Public Relations",
-            "image": "",
+            "image": "../static/assets/team/Pujita.jpeg",
             "about": "..."
         },
         {
             "name": "Vishwas S",
             "designation": "Head of Events and Workshop",
-            "image": "",
+            "image": "../static/assets/team/Vishwas.jpeg",
             "about": "..."
         },
         {
             "name": "Tavin DSouza",
             "designation": "Head of Graphics and Design",
-            "image": "",
+            "image": "../static/assets/team/Tavin.jpeg",
             "about": "..."
         },
         {
             "name": "Krithya Vellian",
             "designation": "Sub-Head of Graphics",
-            "image": "",
+            "image": "../static/assets/team/Krithya.jpeg",
             "about": "..."
         },
         {
             "name": "Nethra Priyadarshini A Shenoy",
             "designation": "Editor in Chief",
-            "image": "",
+            "image": "../static/assets/team/Nethra.jpeg",
             "about": "..."
         }
     ],
