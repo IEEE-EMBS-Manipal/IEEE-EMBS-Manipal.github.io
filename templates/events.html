@@ -5,11 +5,13 @@
 {% macro renderEvent(event) %}
 <div class="col-12 col-md-10 col-lg-8 col-xl-6">
     <div class="card reveal-on-scroll">
+        {% if event.image != "" %}
         <img src="{{ event.image }}" class="card-img-top reveal-on-scroll" alt="{{ event.title }}">
+        {% endif %}
         <div class="card-body reveal-on-scroll">
             <h5 class="card-title reveal-on-scroll">{{ event.title }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted reveal-on-scroll">{{ event.lead }}</h6>
-            <p class="card-text reveal-on-scroll">{{ event.about }}</p>
+            <h6 class="card-subtitle mb-2 text-muted reveal-on-scroll">{{ event.url }}</h6>
+            <p class="card-text reveal-on-scroll">{{ event.description }}</p>
         </div>
     </div>
 </div>
