@@ -7,5 +7,14 @@
 
     <h1 class="reveal-on-scroll">Domains</h1>
 
+    {% for domain in data.domains %}
+    <h2 class="reveal-on-scroll">{{domain}}</h2>
+    <ul class="reveal-on-scroll">
+        {% for subdomain in data.domains[domain] %}
+        <li>{{subdomain}}</li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
 </div>
 {% endblock %}

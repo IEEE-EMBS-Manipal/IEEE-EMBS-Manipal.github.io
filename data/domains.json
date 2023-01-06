@@ -1,0 +1,17 @@
+{
+    "domains": {
+        "Research wing": [
+            "Electronics",
+            "Signal Processing",
+            "Artificial Intelligence",
+            "Clinical Sciences",
+            "Market Analysis"
+        ],
+        "Content wing": [
+            "IT & Web development",
+            "Editorial",
+            "Graphics & Design",
+            "Marketing & PR"
+        ]
+    }
+}
