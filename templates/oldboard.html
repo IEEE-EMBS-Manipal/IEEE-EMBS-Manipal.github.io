@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Team | IEEE EMBS Manipal{% endblock %}
+
+{% macro renderPerson(name, designation, image, about) %}
+<div class="col-6 col-lg-3">
+    <div class="card reveal-on-scroll">
+        <img src="{{ image }}" class="card-img-top reveal-on-scroll" alt="{{ name }}">
+        <div class="card-body reveal-on-scroll">
+            <h5 class="card-title reveal-on-scroll">{{ name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted reveal-on-scroll">{{ designation }}</h6>
+            <p class="card-text reveal-on-scroll">{{ about }}</p>
+        </div>
+    </div>
+</div>
+{% endmacro %}
+
+{% block content %}
+<div class="container">
+
+    <h1 class="reveal-on-scroll">Previous Board</h1>
+
+    <div class="row">
+        <h2 class="reveal-on-scroll">Executives</h2>
+
+        {% for person in data.Executives %}
+        {{ renderPerson(person.name, person.designation, person.image, person.about) }}
+        {% endfor %}
+    </div>
+
+    <div class="row">
+        <h2 class="reveal-on-scroll">Board</h2>
+
+        {% for person in data.Board %}
+        {{ renderPerson(person.name, person.designation, person.image, person.about) }}
+        {% endfor %}
+    </div>
+
+    <div class="row">
+        <h2 class="reveal-on-scroll">Committee</h2>
+
+        <div id="committee-parent">
+            {% for person in data.Committee %}
+            <p class="committee-member reveal-on-scroll">{{ person }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+{% endblock %}

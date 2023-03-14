@@ -1,0 +1,149 @@
+{
+    "Executives": [
+        {
+            "name": "Tushar Nayak",
+            "designation": "Chairperson and Co-Head of Research & Projects",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Tushar.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Justin Kuruvilla",
+            "designation": "Vice Chairperson",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Justin.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Poornima Shetty",
+            "designation": "Secretary General",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Poornima.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Ashrith Yedlapalli",
+            "designation": "Treasurer and Operations Head",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Ashrith.jpeg",
+            "about": ""
+        }
+    ],
+    "Board": [
+        {
+            "name": "Nitila Gokulkrishnan",
+            "designation": "Co-Head of Research & Projects",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Nitila.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Manan Tewari",
+            "designation": "Co-Head of Research & Projects",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Manan.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Shavarni Shrivastava",
+            "designation": "Head of IT",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Shavarni.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Prateek Anand",
+            "designation": "Webmaster",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Prateek.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Pujita Bhimavarapu",
+            "designation": "Head of Marketing and Public Relations",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Pujita.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Vishwas S",
+            "designation": "Head of Events and Workshop",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Vishwas.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Tavin DSouza",
+            "designation": "Head of Graphics and Design",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Tavin.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Krithya Vellian",
+            "designation": "Sub-Head of Graphics",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Krithya.jpeg",
+            "about": ""
+        },
+        {
+            "name": "Nethra Priyadarshini A Shenoy",
+            "designation": "Editor in Chief",
+            "image": "https://media.githubusercontent.com/media/IEEE-EMBS-Manipal/IEEE-EMBS-Manipal.github.io/main/assets/team/Nethra.jpeg",
+            "about": ""
+        }
+    ],
+    "Committee": [
+        "Aayan",
+        "Adela Fathima Saiu",
+        "Aditi Gupta",
+        "Aditi Sarraf",
+        "Aditya",
+        "Aditya shrivastava",
+        "Anshuman Swaroop",
+        "Arul Mahindroo",
+        "Ashutosh Jha",
+        "Bhoomi Jha",
+        "Joseph Joe Tharakan",
+        "Kenneth Stephen Dsa",
+        "Nikhil G",
+        "Nivedita",
+        "Paul K Laju",
+        "Rai Nandini",
+        "Shin Tiem Lee",
+        "Shweta Banerjee",
+        "Thara Anil",
+        "Uttara shenoy b",
+        "Aditya Saraf",
+        "Aditya Sinha",
+        "Advitya Aggarwal",
+        "Angela Anna Jossy",
+        "Archit Singh",
+        "Arjun Wakade",
+        "Arya Singh",
+        "Aparna Sajeev",
+        "Elna Mary Eldho",
+        "Eric B John",
+        "Ishan Shirke",
+        "Kashyap Pobari",
+        "Koushik Kumar",
+        "Krish Didwania",
+        "Krish Manchanda",
+        "Lavanya Dalmia",
+        "Mitwa Saraf",
+        "Navaneeth L",
+        "Nss Prashaanth",
+        "Prajwal Vakare",
+        "Pranav Kumar Gupta",
+        "Prerit shetty",
+        "Ram P Shetty",
+        "Ramya Anand",
+        "Reva Laghate",
+        "Rochelle Maria Quadros",
+        "Safiva Marivam Rizvi",
+        "Saidupally Adithya 0m",
+        "Sanjana R Adiga",
+        "Sanskriti Labroo",
+        "Shreemovee Sircar",
+        "Shreya J",
+        "Sneha Sara Varghese",
+        "Srishti Ghosh",
+        "Surabhi c",
+        "Tejas Raj",
+        "Thara Anil",
+        "Ujjwal Sharma",
+        "Unarv E B",
+        "Vignesh Vijaysekhar",
+        "Vivek Iver",
+        "Yaian Vijayvargiya",
+        "Shyam Pranav G"
+    ]
+}

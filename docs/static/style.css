@@ -1,0 +1,103 @@
+/* ----------------------------------------- */
+/* Default */
+
+.reveal-on-scroll {
+  opacity: 0;
+  filter: blur(2px);
+  transform: translateY(+15%);
+
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.revealed {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion), (scripting: none) {
+  .reveal-on-scroll {
+    opacity: 1;
+    transition: none;
+  }
+}
+
+/* ----------------------------------------- */
+/* Header */
+
+.header-brand {
+  /* font-size: 18px; */
+  line-height: normal;
+  color: rgb(54, 103, 175);
+}
+
+.header-brand:hover {
+  color: rgb(54, 103, 175);
+  scale: 1.04;
+
+  -webkit-transition: scale 0.2s;
+  -moz-transition: scale 0.2s;
+  -o-transition: scale 0.2s;
+  -ms-transition: scale 0.2s;
+  transition: scale 0.2s;
+}
+
+.header-text {
+  font-size: 20px;
+  line-height: normal;
+}
+
+/* ----------------------------------------- */
+/* Home page */
+
+#IEEE-Logo {
+  margin: 0%;
+  width: 200px;
+}
+
+/* ----------------------------------------- */
+/* Team page */
+
+#committee-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.committee-member {
+  margin: 5px;
+  padding: 5px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+/* ----------------------------------------- */
+/* Contact us Page */
+
+.bi-instagram {
+  background-clip: text;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ----------------------------------------- */
+/* Domains Page*/
+.container ul li {
+  font-weight: bold;
+}
+
+/* ----------------------------------------- */
+/* Miscellaneous */
+
+/* ----------------------------------------- */

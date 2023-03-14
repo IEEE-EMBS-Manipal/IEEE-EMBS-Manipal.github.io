@@ -1,0 +1,50 @@
+[
+    {
+        "title": "COMPUTATIONAL APPROACHES FOR BRAIN IMAGING CORRELATES TO TDCS EFFECTS OF PSYCHIATRY WEBINAR",
+        "description": "This was a live webinar on understanding computational approaches for brain imaging analysis and tDCS effects in psychiatry given by Dr Gaurav Bhalerao, a post-doctoral researcher at the University of Oxford. The event started with Tushar Nayak, the chair of IEEE EMBS Manipal, welcoming everyone to the webinar and introducing Dr Gaurav Bhalerao to the attendees. Dr Gaurav Bhalerao began his talk by discussing the topics that interest him in the research field, which include Neuroimaging to Computer-aided diagnosis and his work with notable publications in his years of research. He further talks about his ongoing work at the University of Oxford. He speaks about the necessity of mental health literacy and gives examples of brain disorders and different modalities to study brain activity. Dr Gaurav goes into detail about MRI and explains different types of MRI modalities and different artefacts in MRI images. He analyzes various atlases that can be used for visualization. He listed the types of data formats in the imaging tools store and elaborated on the conversion between these different data formats. Next, he showed demos on MRI visualization using software tools such as MRIcron and MRIcroGL and Tissue segmentation using the Machine learning toolbox on MATLAB. He further gave some valuable Machine-learning tips, including the importance of data cleaning and cross-validation. He elaborated on tDCS, its protocol and modelling. He ended the talk by giving the attendees related exciting topics to work with and telling them about the future scope of this field. The webinar concluded with answering questions from the participants.",
+        "url": "https://events.vtools.ieee.org/m/337081",
+        "image": "https://events.vtools.ieee.org/event/picture/337081",
+        "date": "02 Dec 2022",
+        "time": "02:30 PM to 04:30 PM"
+    },
+    {
+        "title": "IEEE EMBS CIRCUITRY & SIMULATION: ELECTRICAL NETWORK ANALYSIS",
+        "description": "The second day of Circuitry & Simulation covered the remaining topics in analog electronics along with Network analysis. The day began with Manan Bhatt completing the remainder topics of Analog electronics. Nitila Gokulkrishnan began with Network analysis and explained the topics related to it which included Source transformation, Dependent and independent sources, Network theorems, Resonance and Magnetic coupled circuits. At the end of the workshop, questions from the participants were discussed. The event was conducted at Academic Block 3 at Manipal Institute of Technology.",
+        "url": "https://events.vtools.ieee.org/m/332476",
+        "image": "",
+        "date": "01 Nov 2022",
+        "time": "01:00 PM to 05:00 PM"
+    },
+    {
+        "title": "IEEE EMBS CIRCUITRY & SIMULATION: ANALOG & DIGITAL ELECTRONICS",
+        "description": "The first day of Circuitry & Simulation covered Digital Electronics and a few topics of Analog electronics. The first day began with Tavin D’Souza introducing the attendees to digital electronics. He further elaborated on Boolean algebra, logical operations with Boolean expressions, arithmetic circuits, and sequential. Manan Bhatt introduced and explained the initial topics related to Analog Electronics which included diodes, transistors, Thevenin's theorem, and operational amplifiers. Day 1 concluded with answering a few questions from the participants. The event was conducted at Academic Block 3 at Manipal Institute of Technology.",
+        "url": "https://events.vtools.ieee.org/m/332477",
+        "image": "",
+        "date": "31 Oct 2022",
+        "time": "06:00 PM to 08:00 PM"
+    },
+    {
+        "title": "IEEE EMBS WORKING AND PROGRAMMING ON MICROCONTROLLERS: ASSEMBLY LANGUAGE",
+        "description": "Programming with assembly on Intel 8051 was covered. MananTiwari took to the stage with introducing the fundamentals of programming with assembly. He then wrote the code for and explained a few problem statements. Ashrith Yedlapalli further ran the codes to explain how the microprocessor processed the code. after the demonstration, questions from the participants were discussed. The event was conducted at Academic Block 5 at Manipal Institute of Technology.",
+        "url": "https://events.vtools.ieee.org/m/332473",
+        "image": "",
+        "date": "28 Aug 2022",
+        "time": "02:00 PM to 05:00 PM"
+    },
+    {
+        "title": "IEEE EMBS INTRODUCTION TO NEUROTECHNOLOGY AND BRAIN-COMPUTER INTERFACES",
+        "description": "Harrison is co-founder of The BCI Guys, a media company dedicated to removing the barrier to entry and increasing interest in neurotechnology. His experience, including but not limited to working as a Neuroscience Writer at BlackRock Neurotech, and his passion for the field makes him well placed to provide you with valuable insight.",
+        "url": "",
+        "image": "",
+        "date": "",
+        "time": ""
+    },
+    {
+        "title": "IEEE EMBS VIRTUAL IMMERSION IN BIOMEDICAL ENGINEERING",
+        "description": "Expand your technical horizons this summer in this very domain with us! IEEE EMBS Manipal is partnering with Worcester Polytechnic Institute on their Virtual Immersion in Biomedical Engineering program. It is an eight-week long training program where participating students will get to learn about the engineering design process and work on team-based projects within the theme of a global health and biomedical engineering solutions for the low-resourced communities.",
+        "url": "",
+        "image": "",
+        "date": "",
+        "time": ""
+    }
+]
