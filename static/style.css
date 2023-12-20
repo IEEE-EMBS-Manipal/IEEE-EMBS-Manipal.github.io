@@ -11,7 +11,7 @@
 }
 .reveal-on-scroll img {
     width: auto;
-    height: 330px;
+    height: auto;
 }
 
 .revealed {
