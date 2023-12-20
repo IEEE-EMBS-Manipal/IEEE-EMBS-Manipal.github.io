@@ -9,6 +9,10 @@
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
 }
+.reveal-on-scroll img {
+    width: auto;
+    height: auto;
+}
 
 .revealed {
     opacity: 1;
