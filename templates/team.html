@@ -35,6 +35,16 @@
         {{ renderPerson(person.name, person.designation, person.image, person.about) }}
         {% endfor %}
     </div>
+    <br>
+    <br>
+    <div class="row">
+        <h2 class="reveal-on-scroll">Advisory Board</h2>
+
+        {% for person in data.Advisory %}
+        {{ renderPerson(person.name, person.designation, person.image, person.about) }}
+        {% endfor %}
+    </div>
+    
 
     <div class="row">
         <h2 class="reveal-on-scroll">Committee</h2>
